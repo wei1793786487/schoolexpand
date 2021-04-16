@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "hqgml.jwt.secret",
+      "type": "java.lang.String",
+      "description": "Description for hqgml.jwt.secret."
+  }
+] }

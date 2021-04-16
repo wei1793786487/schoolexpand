@@ -1,0 +1,13 @@
+hqgml:
+  jwt:
+    secret: dqdq@token(Auth}*^31)&hwwww% # 登录校验的密钥
+    pubKeyPath: d:\rsa.pub # 公钥地址
+    priKeyPath: d:\rsa.pri # 私钥地址
+    iv: SUNWEIQSDIEBYWVJ
+
+server:
+  port: 9999
+
+spring:
+  application:
+    name: schoolexpand
