@@ -5,9 +5,27 @@ hqgml:
     priKeyPath: d:\rsa.pri # 私钥地址
     iv: SUNWEIQSDIEBYWVJ
 
+
+#spring:
+#  datasource:
+#    username: root
+#    password: 1234
+#    url: jdbc:mysql://localhost:3306/springboot?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+
+
+
+
+forest:
+  variables:
+    url: http://m.shixi.rzpt.cn
+
 server:
   port: 9999
 
 spring:
   application:
     name: schoolexpand
+  datasource:
+    data-password: root
+    url: jdbc:mysql://localhost:3306/school?serverTimezone=UTC
+    data-username: root
